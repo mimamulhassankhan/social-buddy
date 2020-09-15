@@ -36,6 +36,7 @@ const Post = ({data}) => {
         <div>
             <Card variant="outlined" className={classes.root}>
             <CardContent>
+                <Typography className={classes.title} variant="h5" component="h2" gutterBottom> Post No: {id} </Typography>
                 <Typography className={classes.title} variant="h5" component="h2"> {title} </Typography>
                 <Typography variant="body2" component="p"> {body} </Typography>
             </CardContent>
